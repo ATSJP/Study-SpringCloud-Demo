@@ -1,0 +1,13 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: Eureka-C
+
+eureka:
+  instance:
+    hostname: Eureka-C
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8081/eureka/,http://127.0.0.1:8082/eureka/,http://127.0.0.1:8083/eureka/
