@@ -3,11 +3,11 @@ server:
 
 spring:
   application:
-    name: Eureka-C
+    name: Eureka-Server-C
 
 eureka:
   instance:
-    hostname: Eureka-C
+    hostname: Eureka-Server-C
   client:
     service-url:
       defaultZone: http://127.0.0.1:8081/eureka/,http://127.0.0.1:8082/eureka/,http://127.0.0.1:8083/eureka/

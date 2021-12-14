@@ -1,13 +1,13 @@
 server:
-  port: 8081
+  port: 7081
 
 spring:
   application:
-    name: Eureka-Server-A
+    name: Eureka-SingleClientAndSingleServer-Client-A
 
 eureka:
   instance:
-    hostname: Eureka-Server-A
+    hostname: Eureka-SingleClientAndSingleServer-Client-A
   client:
     service-url:
       defaultZone: http://127.0.0.1:8081/eureka/,http://127.0.0.1:8082/eureka/,http://127.0.0.1:8083/eureka/
